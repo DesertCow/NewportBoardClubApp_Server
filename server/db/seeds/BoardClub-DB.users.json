@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "64b5dc72997c339bf80a95f6"
+  },
+  "memberEmail": "test69@gmail.com",
+  "password": "$2b$10$boDUvpFUMUVm42CnF8bbp.rAqWNBycegRH.qfbRKkeQxSTIRrxC8C",
+  "clubPassword": "Yellow",
+  "memberFirstName": "Clayton",
+  "memberLastName": "Skaggs",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b7e6298acc0966613ae6d9"
+  },
+  "memberEmail": "goat@gmail.com",
+  "password": "$2b$10$.Uk9JvwlDTJJLVIf.EG3fOa7z1sB3m5EGXb3WwGyyqV/JYi9dxQui",
+  "clubPassword": "Yellow",
+  "memberFirstName": "Kelly",
+  "memberLastName": "Slater",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bf3bdd64969cb12a72dcab"
+  },
+  "memberEmail": "test55@gmail.com",
+  "password": "$2b$10$GCYgMltNMfMtkBNamGHGgeeEVjGBG/.JCN/S0KtpjxtxUpJmGjJG.",
+  "clubPassword": "Yellow",
+  "memberFirstName": "Dave",
+  "memberLastName": "Smith",
+  "registerDate": {
+    "$date": "2023-07-25T03:05:01.165Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bf4a2bcd6b54201a81a3a9"
+  },
+  "memberEmail": "test2@gmail.com",
+  "password": "$2b$10$uTTLaLzVjpDpZ.fcosBS7O26cPArAp38WyKwMTNCOGt81ZWIiRqHS",
+  "clubPassword": "Yellow",
+  "memberFirstName": "Test",
+  "memberLastName": "Test 2",
+  "registerDate": {
+    "$date": "2023-07-25T04:06:03.910Z"
+  },
+  "__v": 0
+}]

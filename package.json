@@ -1,0 +1,28 @@
+{
+  "name": "newportboardclubapp_server",
+  "version": "0.8.0",
+  "description": "<div align=\"center\"> <h1>Newport Board Club App Server</h1>  <p align=\"center\">   <img src=\"./Dev_Docs/BOARD_CLUB_LOGO_1.jpg\" width=\"350\" height=\"250\" alt=\"Demo 1\") </p> <h4>NodeJS backend server to support both the PWA and React Native version of the Newport Board Club App.</h4> </div>",
+  "main": "server.js",
+  "engines": {
+    "node": ">=16.15.1"
+  },
+  "scripts": {
+    "startServer": "cd server && npm start",
+    "buildServer": "cd server && npm install",
+    "seed": "node seeds/seed.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesertCow/NewportBoardClubApp_Server.git"
+  },
+  "author": "Clayton Skaggs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DesertCow/NewportBoardClubApp_Server/issues"
+  },
+  "homepage": "https://github.com/DesertCow/NewportBoardClubApp_Server#readme",
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
