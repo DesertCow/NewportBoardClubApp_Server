@@ -4,10 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "fullStackStart": "concurrently \"nodemon server_Auth.js\" \"nodemon server_App.js\"",
     "start": "nodemon server.js",
-    "appStart": "nodemon server_App.js",
     "seed": "node db/seeds/index.js"
   },
   "author": "",
