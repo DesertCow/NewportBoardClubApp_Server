@@ -17,6 +17,7 @@ const cors = require("cors");
 var corsOptions = {
   origin: 'https://boardclubapp-production.up.railway.app',
   // origin: 'http://localhost:3001',
+  // origin: 'http://localhost:8081',
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
@@ -144,8 +145,5 @@ async function serverStart() {
 console.log("\n\x1b[34mStart Server...\x1b[0m")
 serverStart();
 console.log("\x1b[33mServer Start Complete!\x1b[0m")
-//* ========== EOM ===========
 
-// console.log("\n\x1b[32m=======================\x1b")
-// console.log("\x1b[32m= ~~~ CLEAN EXIT! ~~~ =\x1b")
-// console.log("\x1b[32m=======================\x1b\n")
+//* ========== EOM ===========

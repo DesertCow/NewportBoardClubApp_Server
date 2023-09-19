@@ -11,50 +11,10 @@
 
 ## Table-of-Contents
 
-* [Deployment](#deployment)
-* [Features](#features)
 * [Installation](#installation)
-* [Technology](#technology)
+* [Software Stack](#softwarestack)
+* [Hardware/Deployment](#hardwaredeploy)
 
-
-
-<br>
-
-
-## [Features](#table-of-contents)
-
-<br>
-
-* TBD
-  * TBD
-  * TBD
-
-<br>
-
-* TBD
-  * TBD
-  * TBD
-
-<br>
-
-* TBD
-  * TBD
-  * TBD
-
-<br>
-
-* TBD
-  * TBD
-  * TBD
-
-<br>
-
-* TBD
-  * TBD
-  * TBD
-
-<br>
-<br>
 
 ## [Installation](#table-of-contents)
 
@@ -64,60 +24,58 @@
     2) npm run startServer
 ```
 
-<br>
-<br>
+## [Software Stack](#table-of-contents)
 
-## [Technology](#table-of-contents)
-
-* <h3> Software Stack </h3>
-
- * **Databases**
-   * MongoDB (non-relational)
-      * User
-      * Events
-      * Surf Sessions
-      * Surf Hacks
-      * Surfboard Shapers
+* **Databases**
+  * MongoDB (non-relational)
+    * User
+    * Events
+    * Surf Sessions
+    * Surf Hacks
+    * Surfboard Shapers
 
 <br>
 
-  * **Server** (Node 18.6.0)
-    * Packages
-      * @apollo/server (4.7.4)
-      * @aws-sdk/credential-providers (3.369.0)
-      * @aws-sdk/hash-node (3.369.0)
-      * @aws-sdk/protocol-http (3.369.0)
-      * @aws-sdk/s3-request-presigner (3.369.0)
-      * @aws-sdk/url-parser (3.369.0)
-      * @aws-sdk/util-format-url(3.369.0)
-      * aws-sdk (2.1414.0)
-      * bcrypt (5.1.0)
-      * body-parser (1.20.2)
-      * cors (2.8.5)
-      * dotenv (16.3.1)
-      * express (4.18.2)
-      * graphql (16.6.0)
-      * graphql-http (1.19.0)
-      * json (11.0.0)
-      * jsonwebtoken (9.0.0)
-      * mongodb (5.6.0)
-      * mongoose (7.3.0)
-      * node-fetch (2.6.11)
-      * react (18.2.0)
+* **Server** (Node 18.6.0)
+  * Packages
+    * @apollo/server (4.7.4)
+    * @aws-sdk/credential-providers (3.369.0)
+    * @aws-sdk/hash-node (3.369.0)
+    * @aws-sdk/protocol-http (3.369.0)
+    * @aws-sdk/s3-request-presigner (3.369.0)
+    * @aws-sdk/url-parser (3.369.0)
+    * @aws-sdk/util-format-url(3.369.0)
+    * aws-sdk (2.1414.0)
+    * bcrypt (5.1.0)
+    * body-parser (1.20.2)
+    * cors (2.8.5)
+    * dotenv (16.3.1)
+    * express (4.18.2)
+    * graphql (16.6.0)
+    * graphql-http (1.19.0)
+    * json (11.0.0)
+    * jsonwebtoken (9.0.0)
+    * mongodb (5.6.0)
+    * mongoose (7.3.0)
+    * node-fetch (2.6.11)
+    * react (18.2.0)
 
 <br>
 
-* <h3> Hardware/Deploy </h3>
+## [Hardware/Deployment](#table-of-contents)
 
-  * Self-Host (Database)
-    * MongoDB
-  * Railway (Host)
-    * Client: https://boardclubapp-production.up.railway.app/
-    * API: https://boardclubapp-production-api.up.railway.app/
-  * GitHub (Verison Control)
-    * https://github.com/DesertCow/boardClubApp
-  * AWS (S3)
-    * US West 1
+* Railway (Cloud Host)
+  * Client: https://boardclubapp-production.up.railway.app/
+  * API: https://boardclubapp-production-api.up.railway.app/
+  <br>
+* Database (Self Host)
+  * MongoDB
+  <br>
+* GitHub (Verison Control)
+  * https://github.com/DesertCow/boardClubApp
+  <br>
+* AWS (S3)
+  * US West 1
 
 <br>
 <br>

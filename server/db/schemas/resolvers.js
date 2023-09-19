@@ -266,7 +266,8 @@ const resolvers = {
 
     getAllUsersSurfSession: async (parent, { userID }) => {
       
-      // console.log("UserID: " + userID)
+      console.log("User Surf Session Request!")
+      console.log("UserID: " + userID)
       
       const allUserSurfSessions = await SurfSessionMongo.find({userID: userID})
 
@@ -683,7 +684,7 @@ const resolvers = {
 
       const surfSession = await SurfSessionMongo.create({ userID, sessionDate, sessionTime, sessionLocation, skyConditions, waveSize, tideLevel, tideDirection, sessionLength, surfboardShaper, surfboardModel, surfboardLengthFT, surfboardLengthIN, surfboardVolume, surfboardFinConfig, sessionNotes, sessionRating });
 
-      console.log("\x1b[32m CREATE: [" + surfSession.sessionID + "] Surf Session\x1b[0m\n")
+      console.log("\x1b[32m CREATE: [" + surfSession._id + "] Surf Session\x1b[0m\n")
 
       return surfSession;
     },
